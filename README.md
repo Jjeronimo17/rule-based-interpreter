@@ -13,10 +13,10 @@ evaluation, and a static analysis module.
 
 ## Environment
 
-- **Operating system:** <e.g. Windows 11 / Ubuntu 22.04>
+- **Operating system:** <Windows 11>
 - **Language:** C++ (standard C++17)
-- **Compiler:** <e.g. g++ 13.2 / MSVC 19.x>
-- **IDE / build tool:** <e.g. CLion with CMake 3.x>
+- **Compiler:** <g++ 13.2>
+- **IDE / build tool:** <CLion with CMake 3.x>
 
 ## Project Structure
 
