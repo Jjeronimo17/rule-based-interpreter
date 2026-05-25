@@ -46,6 +46,17 @@ Cond     -> Cond AND Cond | Atom
 Atom     -> id RelOp value | id
 RelOp    -> > | < | =
 Action   -> id
+
+**LL(1) grammar (implemented):**
+Program  -> RuleList
+RuleList -> Rule RuleList | e
+Rule     -> rule id : if Cond then Action
+Cond     -> Atom Cond'
+Cond'    -> AND Atom Cond' | e        (left-recursion elimination)
+Atom     -> id Atom'
+Atom'    -> RelOp value | e           (left factoring)
+RelOp    -> > | < | =
+Action   -> id
 ( `e` = epsilon / empty string )
 
 Each non-terminal corresponds to a `parseX()` method in the parser.
