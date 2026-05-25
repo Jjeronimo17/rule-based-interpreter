@@ -8,8 +8,8 @@ evaluation, and a static analysis module.
 
 ## Authors
 
-- <Jeronimo Jaramillo Agudelo>
-- <Sebastian Rodriguez Bayona>
+- <Jeronimo_Jaramillo_Agudelo>
+- <Sebastian_Rodriguez_Bayona>
 
 ## Environment
 
